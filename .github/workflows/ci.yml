@@ -1,10 +1,10 @@
 name: Python CI Test Workflow
 
 on:
-  push:            # Trigger when code is pushed
+  push:            
     branches:
-      - main       # You can also use: ['main', 'develop']
-  pull_request:    # Also run tests when a PR is made
+      - main    
+  
 
 jobs:
   build-and-test:
